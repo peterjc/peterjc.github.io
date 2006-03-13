@@ -2,8 +2,7 @@
 title: Biopython
 ---
 
-BioPython
----------
+### BioPython
 
 About the biopython project
 ---------------------------
