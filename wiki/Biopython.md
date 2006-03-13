@@ -5,7 +5,7 @@ title: Biopython
 BioPython
 =========
 
-### About the biopython project
+### About the BioPython project
 
 The Biopython Project is an international association of developers of
 freely available Python tools for computational molecular biology.
