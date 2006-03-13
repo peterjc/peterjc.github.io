@@ -2,10 +2,10 @@
 title: Biopython
 ---
 
-### BioPython
+BioPython
+=========
 
-About the biopython project
----------------------------
+### About the biopython project
 
 The Biopython Project is an international association of developers of
 freely available Python tools for computational molecular biology.
@@ -17,8 +17,7 @@ License, which is extremely liberal and compatible with almost every
 license in the world. We work along with the Open Bioinformatics
 Foundation, who generously provide web and CVS space for the project.
 
-Current Release
----------------
+### Current Release
 
 The latest release is Biopython 1.41, released on 28 Oct 2005. Get it
 from our [Download] page.
