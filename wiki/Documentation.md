@@ -137,7 +137,7 @@ PDF | tarball with LaTex source
 -   Details about the biopython.org website.
 
   
-HTML
+[website](website "wikilink")
 
 -   How to contribute code to Biopython.
 
