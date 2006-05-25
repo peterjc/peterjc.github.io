@@ -17,7 +17,8 @@ title: Documentation
     modules.
 
   
-HTML | PDF
+[HTML](http://biopython.open-bio.org/static/DIST/Tutorial.html) |
+[PDF](http://biopython.open-bio.org/static/DIST/Tutorial.pdf)
 
 -   Documentation for the Biopython interfaces to BioSQL cover
     installing Python database adaptors and basic usage of BioSQL.
