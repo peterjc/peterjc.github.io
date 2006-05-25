@@ -13,11 +13,11 @@ system, for this purpose. For more information on CVS, check out:
 
 [<http://www.cvshome.org/>](http://www.cvshome.org/)
 
-You can also [track CVS changes](Tracking CVS commits "wikilink") via
-[RSS](wp:RSS (file format) "wikilink").
-
 An hourly updated CVS checkout of Biopython is available at
 <http://biopython.open-bio.org/SRC/biopython>
+
+You can also [track CVS changes](Tracking CVS commits "wikilink") via
+[RSS](wp:RSS (file format) "wikilink").
 
 ### Viewing CVS Sources
 
