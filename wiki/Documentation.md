@@ -65,10 +65,10 @@ title: Documentation
 #### API Documentation
 
 -   Documentation for Biopython modules is generated directly from
-    source code comments using Epydoc.
+    source code comments using [Epydoc](http://epydoc.sourceforge.net/).
 
   
-HTML
+[HTML](http://biopython.open-bio.org/static/DIST/docs/api/public/trees.html)
 
 #### Online Course Notes
 
