@@ -5,7 +5,7 @@ title: Documentation
 #### Documentation
 
 -   Installation instructions cover the installation of Python itself,
-    the Biopython dependencies, and Biopython itself.
+    the Biopython dependencies, and Biopython itself
 
   
 [HTML](http://biopython.org/DIST/docs/install/Installation.html) |
