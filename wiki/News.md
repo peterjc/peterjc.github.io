@@ -3,17 +3,17 @@ title: News
 ---
 
 Our News/blog server is available at
-[biopython.org/news/](http://biopython.open-bio.org/news/).
+[biopython.org/news/](http://biopython.org/news/).
 
 There is also a (currently separate) news server for all the
-[OBF](http://www.bioperl.org/wiki/OBF) projects at
+[OBF](obf:OBF "wikilink") projects at
 [news.open-bio.org](http://news.open-bio.org).
 
-| Biopython News                                                                                                                                    |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [RSS feed](http://biopython.open-bio.org/news/feed)                                                                                               |
-| <rss>[http://biopython.open-bio.org/news/feed|date|charset=utf-8|max=10](http://biopython.open-bio.org/news/feed|date|charset=utf-8|max=10)</rss> |
-| Recent [Mailing list](Mailing lists "wikilink") posts                                                                                             |
+| Biopython News                                                                                                                  |
+|---------------------------------------------------------------------------------------------------------------------------------|
+| [RSS feed](http://biopython.org/news/feed)                                                                                      |
+| <rss>[http://biopython.org/news/feed|date|charset=utf-8|max=10](http://biopython.org/news/feed|date|charset=utf-8|max=10)</rss> |
+| Recent [Mailing list](Mailing lists "wikilink") posts                                                                           |
 ||
 
 
