@@ -27,7 +27,7 @@ any changes will be installed on new downloads
 
 `   > rm -r build`  
 `   > rm Martel/*.pyc`  
-`   > rm Test/*.pyc`  
+`   > rm Tests/*.pyc`  
 `   > make clean -C doc`  
 `   > cvs update -P -d `
 
