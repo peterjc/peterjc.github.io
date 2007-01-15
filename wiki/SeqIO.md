@@ -2,7 +2,7 @@
 title: SeqIO
 ---
 
-The page describes Bio.SeqIO, a new Sequence Input/Output interface for
+This page describes Bio.SeqIO, a new Sequence Input/Output interface for
 BioPython.
 
 Some code has now been checked into
@@ -37,7 +37,8 @@ also do much more, for example reading any phylogenetic trees in a Nexus
 file.
 
 My vision is that for manipulating sequence data you should try
-Bio.SeqIO as your first choice (and hopefully only choice).
+Bio.SeqIO as your first choice. Unless you have some very specific
+requirements, I hope this should suffice.
 
 Peter
 
