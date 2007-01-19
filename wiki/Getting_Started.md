@@ -8,12 +8,13 @@ page modeled after the one for bioperl
 Download
 --------
 
-See [Getting BioPerl](Getting BioPerl "wikilink")
+See [Getting BioPython](Download "wikilink")
 
 Installation
 ------------
 
-See [Installing BioPerl](Installing BioPerl "wikilink")
+See [Installing
+BioPython](http://biopython.org/DIST/docs/install/Installation.html)
 
 Quick example
 -------------
