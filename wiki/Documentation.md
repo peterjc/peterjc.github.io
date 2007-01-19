@@ -4,6 +4,10 @@ title: Documentation
 
 #### Documentation
 
+New to BioPython? Check out the [Getting
+Started](Getting_Started "wikilink") page, or follow one of the links
+below.
+
 -   Installation instructions cover the installation of Python itself,
     the Biopython dependencies, and Biopython itself.
 
