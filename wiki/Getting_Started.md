@@ -18,9 +18,10 @@ See [Installing BioPerl](Installing BioPerl "wikilink")
 Quick example
 -------------
 
+Executing this:
+
 ``` Python
 from Bio.Seq import Seq,translate
-import Bio.SeqIO
 
 #create a sequence object of some DNA
 my_seq = Seq('CATGTAGATAG')
@@ -30,14 +31,22 @@ print 'seq is %i bases long' % len(my_seq)
 print 'reverse complement is %s' % my_seq.reverse_complement().tostring()
 
 #or see the whole record
-print my_seq
+print 'sequence record:', my_seq
 
 #translate the sequence into a protein
 my_protein = translate(my_seq)
 
 print 'protein translation is %s' % my_protein.tostring()
-print my_protein
+print 'protein record:', my_protein
 ```
+
+Produces:
+
+    seq is 11 bases long
+    reverse complement is CTATCTACATG
+    sequence record: Seq('CATGTAGATAG', Alphabet())
+    protein translation is HVD
+    protein record: Seq('HVD', HasStopCodon(IUPACProtein(), '*'))
 
 Beginners
 ---------
