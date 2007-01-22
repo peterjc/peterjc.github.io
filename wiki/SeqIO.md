@@ -78,7 +78,7 @@ file handle and format name, and returns a SeqRecord iterator. This lets
 you do things like:
 
 ``` Python
-from Bio.SeqIO import FileToSequenceIterator
+from Bio.SeqIO import SequenceIterator
 handle = open("example.fasta", "rU")
 for record in SequenceIterator(handle, "fasta") :
     print record.id
@@ -88,7 +88,7 @@ If you had a different type of file, for example a SwissProt file, the
 only difference is you specify "swiss" instead of "fasta":
 
 ``` Python
-from Bio.SeqIO import FileToSequenceIterator
+from Bio.SeqIO import SequenceIterator
 handle = open("P18522.txt", "rU")
 for record in SequenceIterator(handle, "swiss") :
     print record
@@ -100,7 +100,7 @@ access to the records in any order. In this situation, use the built in
 python **list** function to turn the iterator into a list:
 
 ``` Python
-from Bio.SeqIO import FileToSequenceIterator
+from Bio.SeqIO import SequenceIterator
 handle = open("example.fasta", "rU")
 records = list(SequenceIterator(handle, "fasta"))
 print records[0] #first record
@@ -112,7 +112,7 @@ this we have a function **SequencesToDict** to turn a SeqRecord iterator
 (or list) into a dictionary:
 
 ``` Python
-from Bio.SeqIO import FileToSequenceIterator
+from Bio.SeqIO import SequenceIterator, SequencesToDict
 handle = open("example.fasta", "rU")
 record_dict = SequencesToDict(SequenceIterator(handle, "fasta"))
 print record_dict["gi:12345678"] # use any record ID
@@ -127,7 +127,7 @@ SeqRecord iterator (or list) into an alignment object - provided all the
 sequences are the same length:
 
 ``` Python
-from Bio.SeqIO import FileToSequenceIterator
+from Bio.SeqIO import SequenceIterator, SequencesToAlignment
 handle = open("example.aln", "rU")
 alignment = SequencesToAlignment(SequenceIterator(handle, "clustal"))
 for column in range(alignment.get_alignment_length()) :
