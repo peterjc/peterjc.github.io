@@ -74,14 +74,14 @@ Note that when writing your data to an alignment file format, all the
 Sequence Input
 --------------
 
-The main function is **SequenceIterator** which takes a file handle and
+The main function is **Bio.SeqIO.parse()** which takes a file handle and
 format name, and returns a [SeqRecord](SeqRecord "wikilink") iterator.
 This lets you do things like:
 
 ``` Python
-from Bio.SeqIO import SequenceIterator
+from Bio import SeqIO
 handle = open("example.fasta", "rU")
-for record in SequenceIterator(handle, "fasta") :
+for record in SeqIO.parse(handle, "fasta") :
     print record.id
 ```
 
@@ -89,9 +89,9 @@ If you had a different type of file, for example a SwissProt file, the
 only difference is you specify "swiss" instead of "fasta":
 
 ``` Python
-from Bio.SeqIO import SequenceIterator
+from Bio import SeqIO
 handle = open("P18522.txt", "rU")
-for record in SequenceIterator(handle, "swiss") :
+for record in SeqIO.parse(handle, "swiss") :
     print record.id
 ```
 
@@ -101,9 +101,9 @@ access to the records in any order. In this situation, use the built in
 python **list** function to turn the iterator into a list:
 
 ``` Python
-from Bio.SeqIO import SequenceIterator
+from Bio import SeqIO
 handle = open("example.fasta", "rU")
-records = list(SequenceIterator(handle, "fasta"))
+records = list(SeqIO.parse(handle, "fasta"))
 print records[0].id  #first record
 print records[-1].id #last record
 ```
@@ -113,9 +113,9 @@ this we have a function **SequencesToDict** to turn a SeqRecord iterator
 (or list) into a dictionary:
 
 ``` Python
-from Bio.SeqIO import SequenceIterator, SequencesToDict
+from Bio import SeqIO
 handle = open("example.fasta", "rU")
-record_dict = SequencesToDict(SequenceIterator(handle, "fasta"))
+record_dict = SeqIO.SequencesToDict(SeqIO.parse(handle, "fasta"))
 print record_dict["gi:12345678"] #use any record ID
 ```
 
@@ -128,9 +128,9 @@ SeqRecord iterator (or list) into an alignment object - provided all the
 sequences are the same length:
 
 ``` Python
-from Bio.SeqIO import SequenceIterator, SequencesToAlignment
+from Bio import SeqIO
 handle = open("example.aln", "rU")
-alignment = SequencesToAlignment(SequenceIterator(handle, "clustal"))
+alignment = SeqIO.SequencesToAlignment(SeqIO.parse(handle, "clustal"))
 for column in range(alignment.get_alignment_length()) :
     print  "%s column %i" % (alignment.get_column(column),column)
 ```
