@@ -129,7 +129,7 @@ sequences are the same length:
 
 ``` Python
 from Bio import SeqIO
-handle = open("example.aln", "rU")
+handle = open("opuntia.aln", "rU")
 alignment = SeqIO.to_alignment(SeqIO.parse(handle, "clustal"))
 for column in range(alignment.get_alignment_length()) :
     print  "%s column %i" % (alignment.get_column(column),column)
