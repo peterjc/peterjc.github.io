@@ -112,6 +112,16 @@ title: Participants
 | Biopython Contributions | Phd (with C. Cox), Ace                              |
 | Relevant URL            | <http://www.lutzonilab.net/member/frankkauff.shtml> |
 
+|-------------------------|--------------------------------------------------------------|
+| Name                    | [Chris Lasher](User:Gotgenes "wikilink")                     |
+| E-mail                  | <chris.lasher@gmail.com>                                     |
+| Affiliation             | [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) |
+| Location                | Blacksburg, VA                                               |
+| Uses Python for         | Putting the joy back in programming                          |
+| Work/Research Interests | Bacterial genomics                                           |
+| Biopython Contributions | Subversion migration                                         |
+| Relevant URL            | <http://gotgenes.com/>                                       |
+
 |-------------------------|-----------------------------------------------------|
 | Name                    | Bartek Wilczyński                                   |
 | E-mail                  | bartek\_AT\_rezolwenta.eu.org                       |
