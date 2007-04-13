@@ -77,27 +77,25 @@ which could be integrated into Bio.SeqIO if appropriate.
 
 ### NBRF / PIR format
 
-Bio.NBRF has a Martel parser for this file format, which is similar to
-the FASTA format. It would need addition work to return SeqRecords. It
-might be easier to extend to reuse the Bio.SeqIO fasta code instead.
+Bio.NBRF has a Martel parser for [PIR sequence
+format](bp:PIR sequence format "wikilink"), which is similar to the
+[FASTA format](bp:FASTA sequence format "wikilink"). It would need
+addition work to return SeqRecords. It might be easier to extend to
+reuse the Bio.SeqIO fasta code instead.
 
--   BioPerl description of [PIR sequence
-    format](bp:PIR_sequence_format "wikilink")
--   [PSC
-    documentation](http://www.psc.edu/general/software/packages/seq-intro/nbrffile.html)
+There is also [PSC
+documentation](http://www.psc.edu/general/software/packages/seq-intro/nbrffile.html).
 
 ### KEGG format
 
-Can Bio.KEGG parse these files?
-
-<http://www.bioperl.org/wiki/KEGG_sequence_format>
+Can Bio.KEGG parse files in [KEGG
+format](bp:KEGG sequence format "wikilink")?
 
 ### PHD sequencing files from PHRED
 
-Bio.Sequencing.PHD has a Martel parser for this file format, also used
-by the tools PHRAP and CONSED.
-
-<http://www.bioperl.org/wiki/PHD_sequence_format>
+Bio.Sequencing.PHD has a Martel parser for [PHD
+format](bp:PHD sequence format "wikilink"), also used by the tools PHRAP
+and CONSED.
 
 ### MASE alignment format
 
