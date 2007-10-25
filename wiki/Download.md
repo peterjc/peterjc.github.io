@@ -5,6 +5,8 @@ title: Download
 Current Release -- 1.43 -- 17 March 2007
 ========================================
 
+See also [What's new](http://biopython.open-bio.org/SRC/biopython/NEWS).
+
 ### Installation Instructions
 
 -   [HTML Installation
