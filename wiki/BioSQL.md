@@ -235,7 +235,7 @@ orchid database. You can check this at the command line:
 
 `mysql --user=root bioseqdb -e "select * from biodatabase;"`
 
-Which should give something like this (asuming you haven't done any
+Which should give something like this (assuming you haven't done any
 other testing yet):
 
 `+----------------+---------+-----------+------------------+`  
