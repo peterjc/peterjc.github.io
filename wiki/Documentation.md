@@ -76,7 +76,7 @@ Bio.PDB module).
     source code comments using [Epydoc](http://epydoc.sourceforge.net/).
 
   
-[HTML](http://biopython.org/DIST/docs/api/public/trees.html)
+[HTML](http://biopython.org/DIST/docs/api)
 
 #### Online Course Notes
 
