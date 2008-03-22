@@ -2,23 +2,10 @@
 title: News
 ---
 
-Our News/blog server is available at
-[biopython.org/news/](http://biopython.org/news/).
+[Biopython News](http://news.open-bio.org/archives/cat_biopython.html)
+is posted on the [Open Bioinformatics Foundation](obf:OBF "wikilink")
+shared [news server](http://news.open-bio.org).
 
-There is also a (currently separate) news server for all the
-[OBF](obf:OBF "wikilink") projects at
-[news.open-bio.org](http://news.open-bio.org).
-
-The latest release is Biopython 1.45, released on 22 March 2008. Get it
-from our [Download](Download "wikilink") page.
-
-See the [What's new](http://biopython.open-bio.org/SRC/biopython/NEWS).
-
-| Biopython News                                                                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------------|
-| [RSS feed](http://biopython.org/news/feed)                                                                                      |
-| <rss>[http://biopython.org/news/feed|date|charset=utf-8|max=10](http://biopython.org/news/feed|date|charset=utf-8|max=10)</rss> |
-| Recent [Mailing list](Mailing lists "wikilink") posts                                                                           |
-||
-
-
+Our latest release is Biopython 1.45, released on 22 March 2008
+available from the [Download](Download "wikilink") page. See [what's
+new](http://biopython.open-bio.org/SRC/biopython/NEWS).
