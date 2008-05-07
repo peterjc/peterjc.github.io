@@ -4,7 +4,7 @@ title: SVN
 
 Until 2008, Biopython and all the other [Open Bioinformatics
 Foundation](http://open-bio.org) projects used [CVS](CVS "wikilink") to
-manage their source code repositories. Most of the other Projects have
+manage their source code repositories. Most of the other projects have
 now migrated from CVS to Subversion (SVN). Biopython will also be
 [moving over shortly](Subversion_migration "wikilink").
 
