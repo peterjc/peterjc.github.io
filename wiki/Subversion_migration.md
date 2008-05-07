@@ -4,8 +4,8 @@ title: Subversion migration
 
 This page will outline and detail the information required for
 end-users, developers, and undertakers of the task of migrating
-Biopython from [CVS](CVS "wikilink") to
-[Subversion](Subversion "wikilink").
+Biopython from [CVS](CVS "wikilink") to [Subversion
+(SVN)](SVN "wikilink").
 
 Biopython Users
 ---------------
@@ -59,9 +59,12 @@ user@compy$ sudo apt-get update && sudo apt-get install subversion
 Biopython Developers
 --------------------
 
-Content for Biopython developers.
+Existing developer accounts should all continue to work as before. When
+working with the main trunk, basic operations such as checking out code,
+diff, and committing changes are very similar to those under CVS.
 
 Biopython Migration Strategy
 ----------------------------
 
-Content for migration strategy.
+Currently this is being dicussed on the Biopython developers [mailing
+list](Mailing_lists "wikilink").
