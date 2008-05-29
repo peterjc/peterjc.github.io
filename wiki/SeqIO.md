@@ -446,8 +446,8 @@ That should give something like this as the output file,
 Help!
 -----
 
-If you are having problems Bio.SeqIO, please join the discussion mailing
-list (see [mailing lists](mailing lists "wikilink")).
+If you are having problems with Bio.SeqIO, please join the discussion
+mailing list (see [mailing lists](mailing lists "wikilink")).
 
 If you think you've found a bug, please report it on
 [bugzilla](http://bugzilla.open-bio.org/).
