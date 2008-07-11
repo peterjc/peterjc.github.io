@@ -37,7 +37,7 @@ My vision is that for manipulating sequence data you should try
 Bio.SeqIO as your first choice. Unless you have some very specific
 requirements, I hope this should suffice.
 
-Peter
+[Peter](User:Peter "wikilink")
 
 File Formats
 ------------
