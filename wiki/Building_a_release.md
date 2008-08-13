@@ -84,11 +84,11 @@ recent CVS changes like this (adjust the date accordingly):
 
 -   Move the generated api directory to replace
     /home/websites/biopython.org/html/static/DIST/docs/api/ on
-    portal.open-bio.org.
+    biopython.org (aka portal.open-bio.org).
 
 18. scp or ftp the .tar.gz, .zip and Windows installer files to the
 Biopython website, folder /home/websites/biopython.org/html/static/DIST/
-on portal.open-bio.org.
+on biopython.org (aka portal.open-bio.org).
 
 19. update the [website](website "wikilink"):
 
