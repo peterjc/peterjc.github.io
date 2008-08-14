@@ -379,11 +379,11 @@ annotation from the database on demand.
 Deleting a (sub) database
 =========================
 
-As mentioned above, BioSQL lets us define named "sub" databases within
-the single SQL database (which we called *bioseqdb*). In the previous
-example, we created a sub-database for some orchid sequences. The
-following code will delete the *orchid* database (and all the records in
-it):
+As mentioned above, BioSQL lets us define named "sub" databases (aka
+namespaces) within the single SQL database (which we called *bioseqdb*).
+In the previous example, we created a sub-database for some orchid
+sequences. The following code will delete the *orchid* database (and all
+the records in it):
 
 ``` Python
 from BioSQL import BioSeqDatabase
