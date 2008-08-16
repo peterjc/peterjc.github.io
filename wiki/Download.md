@@ -57,6 +57,9 @@ installation instructions:
 -   [PDF Full Installation
     Instructions](http://biopython.org/DIST/docs/install/Installation.pdf)
 
+If you are still stuck, sign up to the [Biopython mailing
+list](Mailing_lists "wikilink") and ask for help there.
+
 ### Required Software
 
 -   [Python 2.3 or above](http://www.python.org)
