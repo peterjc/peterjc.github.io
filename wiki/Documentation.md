@@ -186,6 +186,7 @@ source](http://biopython.org/DIST/docs/presentations/biopy_group.tar.gz)
 
 -   Details about the biopython.org [website](website "wikilink").
 -   How to [contribute code](Contributing "wikilink") to Biopython.
+-   [Deprecation policy](Deprecation policy "wikilink")
 -   Instructions for [building a release](building a release "wikilink")
     of Biopython.
 
