@@ -2,10 +2,15 @@
 title: Participants
 ---
 
-Note: People are listed here alphabetically by surname.
+Note: People are listed here alphabetically by surname. This is only a
+partial listing, see also the [contributor
+listing](http://biopython.org/SRC/biopython/CONTRIB) in the Biopython
+source code.
+
+Sebastian Bassi
+===============
 
 |-------------------------|-------------------------------------------------------|
-| Name                    | Sebastian Bassi                                       |
 | E-mail                  | <sbassi@genesdigitales.com>                           |
 | Affiliation             | Universidad Nacional de Quilmes                       |
 | Location                | Balcarce, Buenos Aires, Argentina                     |
@@ -14,8 +19,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | LCC and primer Tm calculation function                |
 | Relevant URL            | <http://www.bioinformatica.info>                      |
 
+Jeffrey Chang
+=============
+
 |-------------------------|--------------------------------------|
-| Name                    | Jeffrey Chang                        |
 | E-mail                  | <jchang@smi.stanford.edu>            |
 | Affiliation             | Postdoctoral Fellow, Duke University |
 | Location                | Durham, NC                           |
@@ -24,15 +31,19 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | Co-Founder                           |
 | Relevant URL            | <http://www.jeffchang.com/>          |
 
+Brad Chapman
+============
+
 |-------------------------|--------------------------------------------|
-| Name                    | Brad Chapman                               |
 | Affiliation             | Massachusetts General Hospital             |
 | Location                | Boston, MA                                 |
 | Biopython Contributions | Docs, GenBank, [BioSQL](BioSQL "wikilink") |
 | Relevant URL            | <http://bcbio.wordpress.com/>              |
 
+[Peter Cock](User:Peter "wikilink")
+===================================
+
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name                    | [Peter Cock](User:Peter "wikilink")                                                                                                                       |
 | E-mail                  | See my web page                                                                                                                                           |
 | Affiliation             | Plant Pathology, SCRI; previously MOAC Doctoral Training Centre, University of Warwick                                                                    |
 | Location                | Dundee, Scotland, UK                                                                                                                                      |
@@ -42,8 +53,10 @@ Note: People are listed here alphabetically by surname.
 | Relevant URL            | <http://www.scri.ac.uk/staff/petercock> and <http://www.warwick.ac.uk/go/peter_cock/python/>                                                              |
 | github                  | <http://github.com/peterjc>                                                                                                                               |
 
+Andrew Dalke
+============
+
 |-------------------------|-------------------------------------------------------------------|
-| Name                    | Andrew Dalke                                                      |
 | E-mail                  | <dalke@dalkescientific.com>                                       |
 | Affiliation             | Dalke Scientific Software, LLC                                    |
 | Location                | Santa Fe, NM                                                      |
@@ -52,8 +65,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | Co-Founder, Seq, Martel, indexing, EUtils, patterns, parsing, ... |
 | Relevant URL            | <http://www.dalkescientific.com/>                                 |
 
+[Michiel de Hoon](User:Mdehoon "wikilink")
+==========================================
+
 |-------------------------|----------------------------------------------------------|
-| Name                    | [Michiel de Hoon](User:Mdehoon "wikilink")               |
 | E-mail                  | See my web page                                          |
 | Affiliation             | RIKEN Omics Science Center                               |
 | Location                | Yokohama                                                 |
@@ -62,8 +77,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | Bio.Cluster; Bio.Entrez; Windows installer               |
 | Relevant URL            | <http://bonsai.ims.u-tokyo.ac.jp/~mdehoon>               |
 
+Iddo Friedberg
+==============
+
 |-------------------------|---------------------------------------------------------------------------------------------|
-| Name                    | Iddo Friedberg                                                                              |
 | E-mail                  | idoerg "at" burnham.org                                                                     |
 | Affiliation             | The Burnham Institute                                                                       |
 | Location                | La-Jolla, CA, USA                                                                           |
@@ -72,8 +89,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | SubsMat, FSSP, bits of Align, bits of the Manual, and a lot of silly questions to the lists |
 | Relevant URL            | <http://iddo-friedberg.org>                                                                 |
 
+Christian Gunning
+=================
+
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Name                    | Christian Gunning                                                                                                               |
 | E-mail                  | bioboy at uga dot edu                                                                                                           |
 | Affiliation             | human, mountain                                                                                                                 |
 | Location                | Athens, GA                                                                                                                      |
@@ -82,8 +101,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions |                                                                                                                                 |
 | Relevant URL            | <http://www.botany.uga.edu/courses/bioinformatics/current/index.html>                                                           |
 
+Thomas Hamelryck
+================
+
 |-------------------------|----------------------------------------|
-| Name                    | Thomas Hamelryck                       |
 | E-mail                  | thamelry - binf ku dk                  |
 | Affiliation             | University of Copenhagen               |
 | Location                | Copenhagen, Denmark                    |
@@ -92,8 +113,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | Bio.PDB, KDTree, SVDSuperimposer       |
 | Relevant URL            | <http://www.binf.ku.dk/users/thamelry> |
 
+Michael Hoffman
+===============
+
 |-------------------------|-------------------------------------------|
-| Name                    | Michael Hoffman                           |
 | E-mail                  | grouse at alumni period utexas period net |
 | Affiliation             | The University of Texas at Austin         |
 | Location                | Austin, TX, USA                           |
@@ -102,8 +125,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | Bio.GFF, Bio.DocSQL                       |
 | Relevant URL            | <http://spice.cc.utexas.edu/~grouse/>     |
 
+Frank Kauff
+===========
+
 |-------------------------|---------------------------------------------------------------------|
-| Name                    | Frank Kauff                                                         |
 | E-mail                  | fkauff at biologie uni-kl de                                        |
 | Affiliation             | University of Kaiserslautern                                        |
 | Location                | Kaiserslautern, Germany                                             |
@@ -112,8 +137,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | Phd, Ace, Nexus (mostly with C. Cox)                                |
 | Relevant URL            | <http://www.uni-kl.de/wcms/ag-kauff.html>                           |
 
+[Chris Lasher](User:Gotgenes "wikilink")
+========================================
+
 |-------------------------|--------------------------------------------------------------|
-| Name                    | [Chris Lasher](User:Gotgenes "wikilink")                     |
 | E-mail                  | <chris.lasher@gmail.com>                                     |
 | Affiliation             | [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) |
 | Location                | Blacksburg, VA                                               |
@@ -122,8 +149,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | Subversion migration                                         |
 | Relevant URL            | <http://gotgenes.com/>                                       |
 
+Bartek Wilczyński
+=================
+
 |-------------------------|-----------------------------------------------------|
-| Name                    | Bartek Wilczyński                                   |
 | E-mail                  | bartek\_AT\_rezolwenta.eu.org                       |
 | Affiliation             | Institute of Mathematics, Polish Academy of Science |
 | Location                | Warsaw, Poland                                      |
@@ -132,8 +161,10 @@ Note: People are listed here alphabetically by surname.
 | Biopython Contributions | Bio.AlignAce                                        |
 | Relevant URL            | <http://bartek.rezolwenta.eu.org>                   |
 
+Harry Zuzan
+===========
+
 |-------------------------|------------------------------------------------------|
-| Name                    | Harry Zuzan                                          |
 | E-mail                  | <iliketobicycle@yahoo.ca>                            |
 | Affiliation             | Genome Quebec                                        |
 | Location                | Montreal                                             |
