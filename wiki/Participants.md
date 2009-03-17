@@ -32,7 +32,7 @@ Note: People are listed here alphabetically by surname.
 | Relevant URL            | <http://bcbio.wordpress.com/>              |
 
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name                    | Peter Cock                                                                                                                                                |
+| Name                    | [Peter Cock](User:Peter "wikilink")                                                                                                                       |
 | E-mail                  | See my web page                                                                                                                                           |
 | Affiliation             | Plant Pathology, SCRI; previously MOAC Doctoral Training Centre, University of Warwick                                                                    |
 | Location                | Dundee, Scotland, UK                                                                                                                                      |
@@ -53,7 +53,7 @@ Note: People are listed here alphabetically by surname.
 | Relevant URL            | <http://www.dalkescientific.com/>                                 |
 
 |-------------------------|----------------------------------------------------------|
-| Name                    | Michiel de Hoon                                          |
+| Name                    | [Michiel de Hoon](User:Mdehoon "wikilink")               |
 | E-mail                  | See my web page                                          |
 | Affiliation             | RIKEN Omics Science Center                               |
 | Location                | Yokohama                                                 |
