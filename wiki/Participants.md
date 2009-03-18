@@ -152,14 +152,15 @@ Frank Kauff
 [Chris Lasher](User:Gotgenes "wikilink")
 ========================================
 
-|-------------------------|--------------------------------------------------------------|
-| E-mail                  | <chris.lasher@gmail.com>                                     |
-| Affiliation             | [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) |
-| Location                | Blacksburg, VA                                               |
-| Uses Python for         | Putting the joy back in programming                          |
-| Work/Research Interests | Bacterial genomics                                           |
-| Biopython Contributions | Subversion migration                                         |
-| Relevant URL            | <http://gotgenes.com/>                                       |
+|-------------------------|--------------------------------------|
+| E-mail                  | <chris.lasher@gmail.com>             |
+| Affiliation             | [Virginia Tech](https://www.vt.edu/) |
+| Location                | Blacksburg, VA                       |
+| Uses Python for         | Putting the joy back in programming  |
+| Work/Research Interests | Data mining                          |
+| Biopython Contributions | Antagonizer                          |
+| GitHub                  | <http://github.com/gotgenes>         |
+| Relevant URL            | <http://gotgenes.com/>               |
 
 [Leighton Pritchard](User:lpritc "wikilink")
 ============================================
