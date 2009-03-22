@@ -67,6 +67,16 @@ Bio.PDB module).
   
 [HTML](http://biopython.org/DIST/docs/cookbook/Restriction.html)
 
+#### Documentation for Developers
+
+-   List of [Active projects](Active projects "wikilink") to get
+    involved with.
+-   How to [contribute code](Contributing "wikilink") to Biopython.
+-   [Deprecation policy](Deprecation policy "wikilink")
+-   Instructions for [building a release](building a release "wikilink")
+    of Biopython.
+-   Details about the biopython.org [website](website "wikilink").
+
 #### API Documentation
 
 -   Documentation for Biopython modules is generated directly from
@@ -179,11 +189,4 @@ source](http://biopython.org/DIST/docs/presentations/scripting.tar.gz)
 [tarball with LaTeX
 source](http://biopython.org/DIST/docs/presentations/biopy_group.tar.gz)
 
-#### Documentation for Developers
-
--   Details about the biopython.org [website](website "wikilink").
--   How to [contribute code](Contributing "wikilink") to Biopython.
--   [Deprecation policy](Deprecation policy "wikilink")
--   Instructions for [building a release](building a release "wikilink")
-    of Biopython.
 
