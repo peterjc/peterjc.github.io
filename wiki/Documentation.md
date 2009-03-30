@@ -197,4 +197,6 @@ source](http://biopython.org/DIST/docs/presentations/scripting.tar.gz)
 [tarball with LaTeX
 source](http://biopython.org/DIST/docs/presentations/biopy_group.tar.gz)
 
+#### Logo
 
+Read more about the [Biopython logo](Logo "wikilink").
