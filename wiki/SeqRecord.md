@@ -19,6 +19,10 @@ There is more information in the
 Creating a SeqRecord object
 ---------------------------
 
+Most of the time you'll create SeqRecord objects by parsing a sequence
+file with [Bio.SeqIO](SeqIO "wikilink"). However, it is useful to know
+how to create a SeqRecord directly. For example,
+
 ``` Python
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
@@ -29,6 +33,8 @@ record = SeqRecord(Seq("MKQHKAMIVALIVICITAVVAALVTRKDLCEVHIRTGQTEVAVF",
                    description="toxic membrane protein, small")
 print record
 ```
+
+This would give the following output:
 
 `   ID: YP_025292.1`  
 `   Name: HokC`  
