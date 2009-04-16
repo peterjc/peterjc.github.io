@@ -490,3 +490,5 @@ There was some old code living in the **Bio.SeqIO.generic** and
 files were marked as deprecated after the release of the "new"
 **Bio.SeqIO** code in Biopython 1.43, and were removed in Biopython
 1.47.
+
+[Category:Wiki Documentation](Category:Wiki Documentation "wikilink")
