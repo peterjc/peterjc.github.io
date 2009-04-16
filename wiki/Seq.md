@@ -252,3 +252,5 @@ Seq('AGTACACTGGT', Alphabet())
 >>> my_seq.complement()
 Seq('TCATGTGACCA', Alphabet())
 ```
+
+[Category:Wiki Documentation](Category:Wiki Documentation "wikilink")

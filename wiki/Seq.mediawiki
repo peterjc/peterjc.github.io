@@ -126,6 +126,7 @@ Seq('ACCAGTGTACT', DNAAlphabet())
 </source>
 
 The chapter in the [http://biopython.org/DIST/docs/tutorial/Tutorial.html Tutorial] ([http://biopython.org/DIST/docs/tutorial/Tutorial.pdf PDF]) goes into more detail on this strand issue.
+[[Category:Wiki Documentation]] 
 
 === Translation ===
 
