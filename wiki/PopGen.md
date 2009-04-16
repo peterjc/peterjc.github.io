@@ -32,3 +32,5 @@ Future developments
 
 Any notes (or discussion) about possible future developments should be
 restricted to the [PopGen development](PopGen_dev "wikilink") page.
+
+[Category:Wiki Documentation](Category:Wiki Documentation "wikilink")

@@ -13,3 +13,4 @@ Python programmers might want to consider [http://pypop.org PyPop] which include
 == Future developments ==
 
 Any notes (or discussion) about possible future developments should be restricted to the [[PopGen_dev|PopGen development]] page.
+[[Category:Wiki Documentation]]
