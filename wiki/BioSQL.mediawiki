@@ -323,3 +323,4 @@ And if there are, assuming you are the only person using this database, you migh
  mysql --user=root bioseqdb -e "KILL 123;"
 
 Use at your own risk!
+[[Category:Wiki Documentation]]

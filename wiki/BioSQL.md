@@ -453,3 +453,5 @@ command:
 `mysql --user=root bioseqdb -e "KILL 123;"`
 
 Use at your own risk!
+
+[Category:Wiki Documentation](Category:Wiki Documentation "wikilink")
