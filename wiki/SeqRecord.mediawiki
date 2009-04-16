@@ -173,3 +173,4 @@ If you are using Biopython 1.50 or later, there will also be a '''letter_annotat
 </source>
 
 Have a look at FASTQ or QUAL files to see how quality scores are represented.  Stockholm (PFAM) alignment files also often include per-letter-annotation.
+[[Category:Wiki Documentation]]

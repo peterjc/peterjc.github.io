@@ -216,3 +216,5 @@ files, so in this case the dictionary is empty:
 Have a look at FASTQ or QUAL files to see how quality scores are
 represented. Stockholm (PFAM) alignment files also often include
 per-letter-annotation.
+
+[Category:Wiki Documentation](Category:Wiki Documentation "wikilink")
