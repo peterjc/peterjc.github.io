@@ -208,3 +208,5 @@ input_handle.close()
 
 By changing the format strings, that code could be used to convert
 between any supported file formats.
+
+[Category:Wiki Documentation](Category:Wiki Documentation "wikilink")

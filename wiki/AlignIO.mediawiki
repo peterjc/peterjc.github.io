@@ -187,3 +187,4 @@ input_handle.close()
 </source>
 
 By changing the format strings, that code could be used to convert between any supported file formats.
+[[Category:Wiki Documentation]]
