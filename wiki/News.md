@@ -19,3 +19,5 @@ feed.
 See also the latest version of [the NEWS
 file](http://biopython.open-bio.org/SRC/biopython/NEWS) included with
 each release.
+
+P.S. You can also follow us on [twitter](http://twitter.com/biopython)!
