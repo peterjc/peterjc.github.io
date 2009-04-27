@@ -9,6 +9,17 @@ are the lifeblood of the project. However, if done incorrectly, they can
 quickly suck up valuable developer time. (We have day jobs too!) This is
 a short guide to the recommended way to contribute code to Biopython.
 
+### Non-code contributions
+
+Even if you don't feel ready or able to contribute code, you can still
+help out. There always things that can be improved on the
+[documentation](documentation "wikilink") (even just proof reading, or
+telling us if a section isn't clear enough). We also need people on the
+[mailing lists](mailing lists "wikilink") to help out with beginner's
+questions, or to participate in debates about new features. Maybe you
+can propose general examples for the [wiki
+cookbook](:Category:Cookbook "wikilink")?
+
 ### Finding a Project
 
 The best contributions are the code that you have already been using in
@@ -19,6 +30,8 @@ sending this in, go on to Step 2, Submitting Code!
 Otherwise, there are still many ways to contribute to Biopython, both
 involving coding and not. Some things that you can help on include:
 
+-   **More unit tests:** Some of our modules still only have partial
+    unit test coverage.
 -   **Support for More Programs:** There are many different
     bioinformatics programs being developed. Identify one that does not
     currently have support in Biopython and add support for it.
@@ -148,4 +161,4 @@ Here's an example of a module documented so that epydoc will be happy:
 `          what parameters it will be passed and what it returns. You know, `  
 `          information so people know how to use the function.`  
 `          """`  
-`          the code`
+`          #the code ...`
