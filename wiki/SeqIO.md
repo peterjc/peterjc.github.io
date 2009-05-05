@@ -484,14 +484,3 @@ discussion mailing list (see [mailing lists](mailing lists "wikilink")).
 
 If you think you've found a bug, please report it on
 [bugzilla](http://bugzilla.open-bio.org/).
-
-Old Bio.SeqIO code
-------------------
-
-There was some old code living in the **Bio.SeqIO.generic** and
-**Bio.SeqIO.FASTA** modules, such as the **FastaReader** class. These
-files were marked as deprecated after the release of the "new"
-**Bio.SeqIO** code in Biopython 1.43, and were removed in Biopython
-1.47.
-
-[Category:Wiki Documentation](Category:Wiki Documentation "wikilink")
