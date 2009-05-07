@@ -45,7 +45,7 @@ once.
 `           if entry is None :`  
 `               #End of file`  
 `               break`  
-`           batch.append(iterator.next())`  
+`           batch.append(entry)`  
 `       yield batch`
 
 </source>
@@ -71,7 +71,12 @@ And the output:
 `Wrote 10000 records to group_2.fastq`  
 `Wrote 10000 records to group_3.fastq`  
 `Wrote 10000 records to group_4.fastq`  
-`Wrote 7348 records to group_5.fastq`
+`Wrote 10000 records to group_5.fastq`  
+`Wrote 10000 records to group_6.fastq`  
+`Wrote 10000 records to group_7.fastq`  
+`Wrote 10000 records to group_8.fastq`  
+`Wrote 10000 records to group_9.fastq`  
+`Wrote 4696 records to group_10.fastq`
 
 You can modify this recipe to use any input and output formats supported
 by [Bio.SeqIO](SeqIO "wikilink"), for example to break up a large FASTA
