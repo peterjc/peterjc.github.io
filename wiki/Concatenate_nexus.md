@@ -125,3 +125,5 @@ Discussion
 
 The details of the Nexus class are provided in the [API
 Domcumentation](http://www.biopython.org/DIST/docs/api/Bio.Nexus.Nexus-pysrc.html)
+
+<Category:Cookbook>

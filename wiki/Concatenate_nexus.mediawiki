@@ -99,3 +99,5 @@ Bio.Nexus.Nexus.NexusError: btITS.nex taxa bt4 not in all matrices
 ==Discussion==
 
 The details of the  Nexus class are provided in the [http://www.biopython.org/DIST/docs/api/Bio.Nexus.Nexus-pysrc.html API Domcumentation]
+
+[[Category:Cookbook]]
