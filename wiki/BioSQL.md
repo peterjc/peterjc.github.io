@@ -246,18 +246,9 @@ as normal, e.g.
 For PostgreSQL, use:
 
 ``` Python
-DBDRIVER = 'psycopg'
-DBTYPE = 'pg'
-```
-
-or:
-
-``` Python
 DBDRIVER = 'psycopg2'
 DBTYPE = 'pg'
 ```
-
-depending on which of the Python bindings you want to install.
 
 Creating a (sub) database
 =========================
