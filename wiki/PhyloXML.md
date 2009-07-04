@@ -77,11 +77,11 @@ Phyloxml
 >>> len(phx.other)
 1
 >>> print phx.other
-[Other(tag=alignment, namespace=http://example.org/align)]
+[Other(tag='alignment', namespace='http://example.org/align')]
 >>> print phx.other[0].children
-[Other(tag=seq, namespace=http://www.phyloxml.org, value=acgtcgcggcccgtggaagtcctctcct),
-Other(tag=seq, namespace=http://www.phyloxml.org, value=aggtcgcggcctgtggaagtcctctcct),
-Other(tag=seq, namespace=http://www.phyloxml.org, value=taaatcgc--cccgtgg-agtccc-cct)]
+[Other(tag='seq', namespace='http://www.phyloxml.org', value='acgtcgcggcccgtggaagtcctctcct'),
+Other(tag='seq', namespace='http://www.phyloxml.org', value='aggtcgcggcctgtggaagtcctctcct'),
+Other(tag='seq', namespace='http://www.phyloxml.org', value='taaatcgc--cccgtgg-agtccc-cct')]
 ```
 
 If you aren't interested in the "other" data, you can use parse() to
@@ -119,7 +119,7 @@ object. Optionally, an encoding other than UTF-8 can be specified.
 ``` Python
 >>> phx = PhyloXML.read('phyloxml_examples.xml')
 >>> print phx.other
-[Other(tag=alignment, namespace=http://example.org/align)]
+[Other(tag='alignment', namespace='http://example.org/align')]
 >>> phx.other = []
 >>> PhyloXML.write(phx, 'ex_no_other.xml')
 >>> phx_no = PhyloXML.read('ex_no_other.xml')
@@ -131,14 +131,15 @@ object. Optionally, an encoding other than UTF-8 can be specified.
 
 Standard Python syntactic sugar is supported wherever it's reasonable.
 
--   \_\_str\_\_ makes a string of the object's class name and an
-    identifier, suitable for labeling a node in generated graph
--   \_\_repr\_\_ makes a string in the usual Biopython format,
-    resembling the object constructor call
--   \_\_iter\_\_ is supported by Phyloxml and Clade objects, iterating
-    over the contained phylogenies and sub-clades, respectively
--   \_\_len\_\_ is supported by the same objects that support iteration,
-    with expected results
+-   str() makes a string of the object's class name and an identifier,
+    suitable for labeling a node in generated graph
+-   repr() makes a string resembling the object constructor call, such
+    that `eval(repr(obj))` will return `obj` for simpler PhyloXML
+    objects, and at least partially rebuild more complex objects.
+-   iter() is supported by Phyloxml and Clade objects, iterating over
+    the contained phylogenies and sub-clades, respectively
+-   len() is supported by the same objects that support iteration, with
+    expected results
 
 Clade objects also support extended indexing:
 
@@ -235,14 +236,14 @@ Some additional tools are located in Bio.PhyloXML.Utils.
 
     >>> PhyloXML.pretty_print('phyloxml_examples.xml', show_all=True)
     Phyloxml()
-        Phylogeny(description=phyloXML allows to use either a "branch_length"
-    attribute or element to indicate branch lengths., name=example from Prof. Joe
-    Felsenstein's book "Inferring Phylogenies")
+        Phylogeny(description='phyloXML allows to use either a "branch_length"
+    attribute or element to indicate branch lengths.', name='example from Prof. Joe
+    Felsenstein's book "Inferring Phylogenies"')
             Clade()
                 Clade(branch_length=0.06)
-                    Clade(branch_length=0.102, name=A)
-                    Clade(branch_length=0.23, name=B)
-                Clade(branch_length=0.4, name=C)
+                    Clade(branch_length=0.102, name='A')
+                    Clade(branch_length=0.23, name='B')
+                Clade(branch_length=0.4, name='C')
     ...
 
 ### Performance
