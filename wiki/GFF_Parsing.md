@@ -63,4 +63,4 @@ GFF Parsing
 Writing GFF3
 ------------
 
-[Category:Wiki Documentation]
+[Category:Wiki Documentation](Category:Wiki Documentation "wikilink")
