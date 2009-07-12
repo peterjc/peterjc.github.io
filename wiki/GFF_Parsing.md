@@ -62,3 +62,5 @@ GFF Parsing
 
 Writing GFF3
 ------------
+
+[Category:Wiki Documentation]
