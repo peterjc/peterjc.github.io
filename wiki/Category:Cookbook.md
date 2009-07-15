@@ -24,6 +24,3 @@ think would be worth copying (or moving) here? Let us know on the
 [mailing lists](mailing lists "wikilink").
 
 Thanks
-
-[`Remove` `PDB` `disordered`
-`atoms`](Remove PDB disordered atoms "wikilink")
