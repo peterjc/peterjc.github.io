@@ -14,4 +14,9 @@ simulations.
 Solution
 --------
 
+[Bio.PDB](Bio.PDB "wikilink") is proficient in dealing disordered atoms.
+Each disordered atom has a property indicating its alternative
+positions: atom.altloc. Usually there are only two alternative positions
+labelled 'A' and 'B'
+
 <Category:Cookbook>
