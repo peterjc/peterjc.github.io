@@ -2,6 +2,8 @@
 title: Remove PDB disordered atoms
 ---
 
+Contributed by Ramon Crehuet
+
 Problem
 -------
 
