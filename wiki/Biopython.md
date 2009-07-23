@@ -2,10 +2,8 @@
 title: Biopython
 ---
 
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <rss>[http://news.open-bio.org/news/category/obf-projects/biopython/feed/|charset=utf-8|short|data|max=4|date](http://news.open-bio.org/news/category/obf-projects/biopython/feed/|charset=utf-8|short|data|max=4|date)</rss> |
-|                                                                                                                                                                                                                               |
-| See also our [news page](News "wikilink"), and [twitter](http://twitter.com/biopython).                                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------|
+| See also our [news page](http://news.open-bio.org/news/category/obf-projects/biopython/), and [twitter](http://twitter.com/biopython). |
 
 ### Introduction
 
