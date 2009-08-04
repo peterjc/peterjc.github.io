@@ -158,7 +158,11 @@ print ctrl.get_multilocus_f_stats()
 print ctrl.get_f_stats("Locus2")
 ```
 
+### Tests
+
 ``` Python
 print ctrl.test_ld_all_pair("Locus1", "Locus2",
     dememorization=1000, batches=10, iterations=100)
 ```
+
+### Isolation By Distance (IBD)
