@@ -168,20 +168,41 @@ is -0.112.
 We can get an estimation of the number of migrants:
 
 ``` Python
-samp_size, priv_allele_freq, mig10, mig25, mig25, migcorr = ctrl.estimate_nm()
+samp_size, priv_allele_freq, mig10, mig25, mig50, migcorr = ctrl.estimate_nm()
 ```
 
+samp\_size is mean sample size, priv\_allele\_freq is the mean frequency
+of private alleles, mig10 is the number of migrants for Ne=10, mig25 for
+Ne=25, mig 50 for Ne=50 and migcorr is the number of migrants after
+correcting for expected size.
+
+### Fst
+
+Lets get the pairwise Fst for a certain locus:
+
 ``` Python
-print ctrl.get_avg_fst_pair_locus("Locus4")
+pair_fst = ctrl.get_avg_fst_pair_locus("Locus4")
 ```
+
+Will return a map where the key is the pair composed of population1,
+population2 (the population Id). population2 is always LOWER than
+population1. Example: the pairwise Fst for Locus4 between population 0
+and population 3 is given by pair\_fst[(3,0)].
+
+You can also get the multilocus pairwise Fst estimate:
 
 ``` Python
 print ctrl.get_avg_fst_pair()
 ```
 
+This will return the same data structure as above but with a multilocus
+pairwise Fst
+
 ``` Python
 print ctrl.get_avg_fis()
 ```
+
+See also the Fis section
 
 ``` Python
 print ctrl.get_multilocus_f_stats()
