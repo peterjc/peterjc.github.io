@@ -92,6 +92,20 @@ Phyloxml(phylogenies=[
     ])
 ```
 
+which represents a phylogeny like this:
+
+
+             .102
+           _______A
+       .06 |
+     ______|
+     |     | .23
+     |     |______B
+    _|
+     |
+     |    .4
+     |____________C
+
 I/O functions
 -------------
 
