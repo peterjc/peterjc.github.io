@@ -40,7 +40,7 @@ Load a big pdb file and write it out again. How to do interesting things
 to the pdb file such as deleting some water molecules around a ligand is
 left for another article.
 
-<python>import Bio.PDB import xpdb
+<python>import Bio.PDB import xpdb \# this is the module described below
 
 1.  read
 
