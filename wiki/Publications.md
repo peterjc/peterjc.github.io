@@ -17,6 +17,10 @@ Publications from 2009
 
 <biblio>
 
+1.  ArmanoAndManconi2009 pmid=19799773
+
+// Used Bio.PDB
+
 1.  BanachEtAl2009 pmid=19399224
 
 // Used Bio.PDB and Bio.KDTree
