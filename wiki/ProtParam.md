@@ -80,6 +80,9 @@ be in Helix, Turn or Sheet.
 
 The list contains 3 values: [Helix, Turn, Sheet].
 
+Protein Scales
+--------------
+
 ### protein\_scale(Scale, WindwonSize, Edge):
 
 An amino acid scale is defined by a numerical value assigned to each
