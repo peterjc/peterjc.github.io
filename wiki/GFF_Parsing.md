@@ -183,7 +183,13 @@ then returning those as records. This will be fine for small files, but
 for most real life cases you will want to restrict parsing to a set of
 features of interest or a section of lines at once to conserve memory.
 
-### Limiting parsed lines
+### Limiting to features of interest
+
+A GFF file will commonly contain many types of features, and you will be
+interested in retrieving a subset of these. The limit\_info argument to
+GFF.parse allows exact specification of which features to parse, turn
+into objects and retrieve. An example is retrieving all coding sequence
+on chromosome 1:
 
 ``` Python
 from BCBio import GFF
@@ -191,6 +197,7 @@ from BCBio import GFF
 in_file = "your_file.gff"
 
 limit_info = dict(
+        gff_id = ["chr1"],
         gff_source = ["Coding_transcript"])
 
 in_handle = open(in_file)
@@ -198,6 +205,11 @@ for rec in GFF.parse(in_handle, limit_info=limit_info):
     print rec.features[0]
 in_handle.close()
 ```
+
+You will get back a single record for chromosome 1 which contains all of
+the coding features in memory for further manipulation. Depending on
+your memory requirements and workflow, it may make sense to do analyses
+over each chromosome or set of features you are interested in.
 
 ### Iterating over portions of a file
 
