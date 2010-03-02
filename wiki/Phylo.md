@@ -267,19 +267,36 @@ Strings are automatically truncated to ensure reasonable display.
 **draw\_graphviz** mimics the networkx function of the same name, with
 some tweaks to improve the display of the graph. If a file name is
 given, the graph is drawn directly to that file, and options such as
-image format (default PDF) may be used. Prerequisites: In addition to
-networkx, you'll need a local installation of Graphviz,
-[matplotlib](http://matplotlib.sourceforge.net/) and either
+image format (default PDF) may be used.
+
+![Phylogram with colored
+nodes](Phylo-apaf.png "Phylogram with colored nodes")
+
+Prerequisites: In addition to networkx, you'll need a local installation
+of Graphviz, [matplotlib](http://matplotlib.sourceforge.net/) and either
 [PyGraphviz](http://networkx.lanl.gov/pygraphviz/) or
 [pydot](http://dkbza.org/pydot.html).
 
+Drawing a basic dendrogram is simple:
+
 ``` Python
-tree = Phylo.read('example.xml', 'phyloxml')
-# Draw it a few different ways
-Phylo.draw_graphviz(tree, 'example.pdf')
-Phylo.draw_graphviz(tree, 'example.png', format='png')
+import pylab
+tree = Phylo.read('apaf.xml', 'phyloxml')
 Phylo.draw_graphviz(tree)
+pylab.show()
 ```
+
+![Phylogram with plain text
+nodes](Phylo-apaf-node0.png "fig:Phylogram with plain text nodes")
+Here's the same tree without the circles at each labelled node:
+
+``` Python
+Phylo.draw_graphviz(tree, node_size=0)
+```
+
+See the function's docstring for more explanation.
+
+*TODO: Set up a cookbook page to demonstrate the more exotic options.*
 
 **draw\_ascii** prints an ascii-art rooted phylogram to standard output,
 or another file handle if specified. Only terminal node labels are
