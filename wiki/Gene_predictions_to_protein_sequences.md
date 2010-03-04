@@ -4,7 +4,7 @@ title: Gene predictions to protein sequences
 
 Contributed by Brad Chapman
 
-Note: This requires the propose Biopython [GFF
+Note: This requires the proposed Biopython [GFF
 module](http://github.com/chapmanb/bcbb/tree/master/gff/), which has not
 yet been integrated in Biopython. You will need to install it first to
 run the examples
