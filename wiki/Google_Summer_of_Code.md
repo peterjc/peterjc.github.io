@@ -176,7 +176,7 @@ Degree of difficulty and needed skills : Moderate. An understanding of the types
 
 <!-- -->
 
-Mentors : [Eric Talevich](User:EricTalevich "wikilink") (looking for co-mentors)  
+Mentors : [Eric Talevich](User:EricTalevich "wikilink"), [Diana Jaunzeikare](https://www.nescent.org/wg_phyloinformatics/User:Dianaj)  
 
 ### Integration with a third-party structural biology application
 
