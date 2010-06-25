@@ -2,9 +2,10 @@
 title: Phylo cookbook
 ---
 
-Here are some examples of using Bio.Phylo for some likely tasks. Some of
-the given functions might be added to Biopython in a later release, but
-you can use them in your own code with Biopython 1.54.
+Here are some examples of using [Bio.Phylo](Phylo "wikilink") for some
+likely tasks. Some of these functions might be added to Biopython in a
+later release, but you can use them in your own code with Biopython
+1.54.
 
 Consensus methods
 -----------------
@@ -25,9 +26,7 @@ Rooting methods
 Graphics
 --------
 
--   TODO:\*
-
-<!-- -->
+*TODO:*
 
 -   Party tricks with `draw_graphviz`, covering each keyword argument
 
