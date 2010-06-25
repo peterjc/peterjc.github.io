@@ -55,3 +55,4 @@ ctree = cogent.LoadTree('mytree.nwk')        # PyCogent tree
 -   Relationship matrix? See [Martins and Housworth
     2002](http://www.jstor.org/stable/3070822)
 
+<Category:Cookbook>

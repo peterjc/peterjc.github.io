@@ -40,3 +40,5 @@ ctree = cogent.LoadTree('mytree.nwk')        # PyCogent tree
 * Adjacency matrix: cells are True if parent-child relationship exists, otherwise False
 * Distance matrix: cells are branch lengths if a branch exists, otherwise Inf or NaN
 * Relationship matrix? See [http://www.jstor.org/stable/3070822 Martins and Housworth 2002]
+
+[[Category:Cookbook]]
