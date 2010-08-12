@@ -516,3 +516,31 @@ DIRQGPKEPFRDYVDRFYKTLRAEQASQEVKNW TETLLVQNANPDCKTILKALGPGATLEE TACQG
 DIRQGPKEPFRDYVDRFYKTLRAEQASQEVKNWMTETLLVQNANPDCKTILKALGPGATLEEMMTACQG
 
 .....</python>
+
+### Support for MODELLER PIR format in SeqIO
+
+MODELLER PIR format support was added to SeqIO as 'mpir'. Currently, the
+format can be read but not written. An example of the format follows, as
+well as an example of the parser's usage.
+
+\>P1;5fd1 structureX:5fd1:1 :A:106 :A:ferredoxin:Azotobacter vinelandii:
+1.90: 0.19
+AFVVTDNCIKCKYTDCVEVCPVDCFYEGPNFLVIHPDECIDCALCEPECPAQAIFSEDEVPEDMQEFIQLNAELA
+EVWPNITEKKDPLPDAEDWDGVKGKLQHLER\*
+
+<python>from Bio import SeqIO
+
+handle = open('test\_pir.txt')
+
+records = SeqIO.parse(handle, 'mpir')
+
+for i in records:
+
+`   print i`
+
+ID: 5fd1 Name: 5fd1 Description: ferredoxin Number of features: 0
+/r\_factor= 0.19 /end\_residue=106 /initial\_chain=a /end\_chain=a
+/record\_type=X-Ray Structure /initial\_residue=1 /resolution= 1.90
+/source\_organism=Azotobacter vinelandii
+Seq('AFVVTDNCIKCKYTDCVEVCPVDCFYEGPNFLVIHPDECIDCALCEPECPAQAI...LER',
+ProteinAlphabet())</python>
