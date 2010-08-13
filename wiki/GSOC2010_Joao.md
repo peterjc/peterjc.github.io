@@ -519,9 +519,9 @@ DIRQGPKEPFRDYVDRFYKTLRAEQASQEVKNWMTETLLVQNANPDCKTILKALGPGATLEEMMTACQG
 
 ### Support for MODELLER PIR format in SeqIO
 
-MODELLER PIR format support was added to SeqIO as 'mpir'. Currently, the
-format can be read but not written. An example of the format follows, as
-well as an example of the parser's usage.
+MODELLER PIR format support was added to SeqIO as 'pir-modeller'.
+Currently, the format can be read but not written. An example of the
+format follows, as well as an example of the parser's usage.
 
     >P1;5fd1
     structureX:5fd1:1    :A:106  :A:ferredoxin:Azotobacter vinelandii: 1.90: 0.19
@@ -532,7 +532,7 @@ well as an example of the parser's usage.
 
 handle = open('test\_pir.txt')
 
-records = SeqIO.parse(handle, 'mpir')
+records = SeqIO.parse(handle, 'pir-modeller')
 
 for i in records:
 
