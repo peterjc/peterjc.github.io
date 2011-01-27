@@ -83,7 +83,7 @@ The list contains 3 values: [Helix, Turn, Sheet].
 Protein Scales
 --------------
 
-### protein\_scale(Scale, WindwonSize, Edge):
+### protein\_scale(Scale, WindowSize, Edge):
 
 An amino acid scale is defined by a numerical value assigned to each
 type of amino acid. The most frequently used scales are the
