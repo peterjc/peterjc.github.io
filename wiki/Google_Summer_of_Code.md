@@ -125,4 +125,4 @@ Degree of difficulty and needed skills : Easy-to-Medium depending on how many ob
 
 Mentors : Reece Hart, Locus Development, San Francisco  
 
-
+[Brad Chapman](http://bcbio.wordpress.com)
