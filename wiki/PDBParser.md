@@ -114,6 +114,9 @@ Average Structure Length: 147 residues
 
 `TOTAL                 11330           46.84`
 
+[Link to full
+results](http://nmr.chem.uu.nl/~joao/f/benchmark_CATH-biopython_149.time)
+
 #### Biopython 1.57+
 
 `Total Time Spent: 686.176s`  
@@ -129,6 +132,9 @@ Average Structure Length: 147 residues
 
 `TOTAL                 11330           60.56`
 
+[Link to full
+results](http://nmr.chem.uu.nl/~joao/f/benchmark_CATH-biopython_current.time)
+
 #### Biopython 1.58-
 
 `Total Time Spent: 695.405s`  
@@ -143,6 +149,9 @@ Average Structure Length: 147 residues
 `500 =< x < 1000       44              247.171`
 
 `TOTAL                 11330           61.38`
+
+[Link to full
+results](http://nmr.chem.uu.nl/~joao/f/benchmark_CATH-biopython_pdb_enhancements.time)
 
 ### PDB Dataset
 
@@ -165,6 +174,9 @@ Average Structure Length: 263 residues
 `>= 1000               619             2881.520`
 
 `TOTAL                 72836           381.706`
+
+[Link to full
+results](http://nmr.chem.uu.nl/~joao/f/benchmark_PDB-biopython1.49.time)
 
 #### Biopython 1.57+ (In progress)
 
