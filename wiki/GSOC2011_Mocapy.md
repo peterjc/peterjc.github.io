@@ -264,14 +264,14 @@ Mid-term evaluations (July 11)
 
 '''Firm pencils down (August 22) '''
 
-Project's Code
---------------
+Project Code
+------------
 
 Hosted at [the gSoC11 Mocapy
 branch](http://mocapy.svn.sourceforge.net/viewvc/mocapy/branches/gSoC11/)
 
-Project's Progress
-------------------
+Project Progress
+----------------
 
 ### Options to create Python bindings to C++ code
 
