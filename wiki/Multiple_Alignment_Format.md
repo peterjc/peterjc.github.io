@@ -2,8 +2,6 @@
 title: Multiple Alignment Format
 ---
 
-[link title](http://www.example.com)
-
 MafIndex
 --------
 
