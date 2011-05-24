@@ -2,6 +2,9 @@
 title: GSOC2011 MocapyExt
 ---
 
+Introduction
+------------
+
 Author & Mentors
 ----------------
 
@@ -15,4 +18,5 @@ Thomas Hamelryck
 
 Eric Talevich
 
-
+Project Schedule
+----------------
