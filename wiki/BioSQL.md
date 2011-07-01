@@ -65,12 +65,12 @@ database). See [BioSQL
 downloads](http://www.biosql.org/wiki/Downloads) -- you'll need to unzip
 the archive.
 
-Alternatively to get the very latest BioSQL, check out their SVN
+Alternatively to get the very latest BioSQL, check out their git
 repository. Or, navigate to the relevant schema file for your database
 and download just that, e.g.
-[biosqldb-mysql.sql](http://code.open-bio.org/svnweb/index.cgi/biosql/view/biosql-schema/trunk/sql/biosqldb-mysql.sql)
+[biosqldb-mysql.sql](https://raw.github.com/biosql/biosql/master/sql/biosqldb-mysql.sql)
 for MySQL. You will also want the NCBI Taxonomy loading perl script,
-[load\_ncbi\_taxonomy.pl](http://code.open-bio.org/svnweb/index.cgi/biosql/view/biosql-schema/trunk/scripts/load_ncbi_taxonomy.pl).
+[load\_ncbi\_taxonomy.pl](https://raw.github.com/biosql/biosql/master/scripts/load_ncbi_taxonomy.pl).
 
 Creating the empty database
 ---------------------------
