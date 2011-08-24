@@ -627,9 +627,13 @@ and
 ### Performance
 
 A few performance measurements were made comparing test cases
-implemented both in C++ and in Python. There were no significant
-performance differences. For both implementations the methods
-responsible for consuming most cpu time were the same:
+implemented both in C++ and in Python. The tests were run in a computer
+with the following specification: Core 2 Duo T7250 2.00GHz, Memory Dual
+Channel 4.0GB (2x2048) 667 MHz DDR2 SDRAM, Hard Drive 200GB 7200RPM.
+
+There were no significant performance differences. For both
+implementations the methods responsible for consuming most cpu time were
+the same:
 
 ![DBN with discrete nodes, C++ implementation
 ](Hmm_discrete.png "fig:DBN with discrete nodes, C++ implementation ")
@@ -671,9 +675,9 @@ performing mathematical operations during the sampling process
 ![Training of the TorusDBN model
 ](TorusDBN.png "Training of the TorusDBN model ")
 
-The model has been trained with a dataset consisting of about 900 chains
-with maximum 20% homology, resolution below 1.6 Å and R-factor below
-25%.
+The model has been trained with a training set consisting of about 900
+chains with maximum 20% homology, resolution below 1.6 Å and R-factor
+below 25%. It took about 67 minutes to read and train the whole dataset.
 
 The resulting DBN is available at
 <https://github.com/mchelem/biopython/blob/master/Tests/TorusDBN/pisces_dataset.dbn>
