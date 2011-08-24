@@ -675,7 +675,7 @@ performing mathematical operations during the sampling process
 ![Training of the TorusDBN model
 ](TorusDBN.png "Training of the TorusDBN model ")
 
-The model has been trained with a training set consisting of about 900
+The model has been trained with a training set consisting of about 950
 chains with maximum 20% homology, resolution below 1.6 Å and R-factor
 below 25%. It took about 67 minutes to read and train the whole dataset.
 
