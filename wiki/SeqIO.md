@@ -491,3 +491,5 @@ discussion mailing list (see [mailing lists](mailing lists "wikilink")).
 
 If you think you've found a bug, please report it on
 [bugzilla](http://bugzilla.open-bio.org/).
+
+[Category:Wiki Documentation](Category:Wiki Documentation "wikilink")
