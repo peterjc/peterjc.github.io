@@ -274,14 +274,13 @@ SourceForge. The library supports a wide spectrum of DBN architectures
 and probability distributions, including distributions from directional
 statistics. Notably, Kent distribution on the sphere and the bivariate
 von Mises distribution on the torus, which have proven to be useful in
-formulating probabilistic models of protein and RNA structure.
-
-Such a highly useful and powerful library, which has been used in such
-projects as TorusDBN, Basilisk, FB5HMM with great success, is the result
-of the long-term effort. The original Mocapy implementation dates back
-to 2004, and since then the library has been rewritten in C++. However,
-C++ is a statically typed and compiled programming language, which does
-not facilitate rapid prototyping. As a result, currently Mocapy++ has no
+formulating probabilistic models of protein and RNA structure. Such a
+highly useful and powerful library, which has been used in such projects
+as TorusDBN, Basilisk, FB5HMM with great success, is the result of the
+long-term effort. The original Mocapy implementation dates back to 2004,
+and since then the library has been rewritten in C++. However, C++ is a
+statically typed and compiled programming language, which does not
+facilitate rapid prototyping. As a result, currently Mocapy++ has no
 provisions for dynamic loading of custom node types, and a mechanism to
 plug-in new node types that would not require to modify and recompile
 the library is of interest. Such a plug-in interface would assist rapid
