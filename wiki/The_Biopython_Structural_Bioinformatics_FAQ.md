@@ -387,10 +387,7 @@ essentially added when needed. A UML diagram of the `Structure` object
 (forget about the `Disordered` classes for now) is shown in Fig.
 \\ref{<cap:SMCRA>.
 
-% \\begin{figure[tbh] \\begin{center\\includegraphics[%
-
-` width=100mm,`  
-` keepaspectratio]{images/smcra.png\end{center`
+![alt text](Smcra.png "alt text")
 
 \\caption{\\label{<cap:SMCRAUML> diagram of SMCRA architecture of the
 `Structure` object. Full lines with diamonds denote aggregation, full
