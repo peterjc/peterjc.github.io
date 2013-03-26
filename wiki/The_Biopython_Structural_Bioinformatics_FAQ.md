@@ -327,10 +327,8 @@ structure too, of course.
 Example: saving a structure
 
 ``` Python
-io=PDBIO()
-
+io = PDBIO()
 io.set_structure(s)
-
 io.save('out.pdb')
 ```
 
@@ -339,11 +337,8 @@ If you want to write out a part of the structure, make use of the
 
 ``` Python
 accept_model(model)
-
 accept_chain(chain)
-
 accept_residue(residue)
-
 accept_atom(atom)
 ```
 
@@ -355,23 +350,14 @@ following code only writes out glycine residues:
 
 ``` Python
 class GlySelect(Select):
-
     def accept_residue(self, residue):
-
         if residue.get_name()=='GLY':
-
             return 1
-
         else:
-
             return 0
 
-
-
-io=PDBIO()
-
+io = PDBIO()
 io.set_structure(s)
-
 io.save('gly_only.pdb', GlySelect())
 ```
 
