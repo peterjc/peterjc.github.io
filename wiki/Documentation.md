@@ -40,6 +40,8 @@ below.
 
 :\* [Bio.PopGen](PopGen "wikilink") - population genetics
 
+:\* [Bio.PDB](PDB "wikilink") - structural bioinformatics
+
 :\* Biopython's [BioSQL interface](BioSQL "wikilink")
 
 -   Documentation for the Biopython interfaces to BioSQL cover
