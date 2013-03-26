@@ -289,10 +289,10 @@ immediately!
 Example:
 
 ``` Python
-\# Permissive parser
+ # Permissive parser
 parser=PDBParser(PERMISSIVE=1)
-parser=PDBParser() \# The same (default)
-\# Strict parser
+parser=PDBParser()  # The same (default)
+ # Strict parser
 strict_parser=PDBParser(PERMISSIVE=0)
 ```
 
@@ -434,13 +434,13 @@ for model in structure:
 There are also some shortcuts:
 
 ``` Python
-\# Iterate over all atoms in a structure
+ # Iterate over all atoms in a structure
 
 for atom in structure.get_atoms():
 
     print atom
 
-\# Iterate over all residues in a model
+ # Iterate over all residues in a model
 
 for residue in model.get_residues():
 
@@ -475,11 +475,11 @@ atoms=chain.get_atoms()
 You can also use the `Selection.unfold_entities` function:
 
 ``` Python
-\# Get all residues from a structure
+ # Get all residues from a structure
 
 res_list=Selection.unfold_entities(structure, 'R')
 
-\# Get all atoms from a chain
+ # Get all atoms from a chain
 
 atom_list=Selection.unfold_entities(chain, 'A')
 ```
@@ -548,9 +548,9 @@ the above glucose residue would thus be `('H_GLC',
 sequence identifier alone can be used:
 
 ``` Python
-\# Full id
+ # Full id
 residue=chain{[(' ', 100, ' '){]
-\# Shortcut id
+ # Shortcut id
 residue=chain{[100{]
 ```
 
@@ -605,9 +605,9 @@ specify that a `DisorderedAtom` object should behave like the `Atom`
 object associated with a specific altloc identifier:
 
 ``` Python
-atom.disordered_select('A') \# select altloc A atom
+atom.disordered_select('A')  # select altloc A atom
 
-atom.disordered_select('B') \# select altloc B atom 
+atom.disordered_select('B')  # select altloc B atom 
 ```
 
 A special case arises when disorder is due to \\textbf{point mutations,
@@ -689,27 +689,27 @@ also trivial to add support for new file formats by writing new parsers.
 Using the following methods:
 
 ``` Python
-a.get_name() \# atom name (spaces stripped, e.g. 'CA')
+a.get_name()  # atom name (spaces stripped, e.g. 'CA')
 
-a.get_id() \# id (equals atom name)
+a.get_id()  # id (equals atom name)
 
-a.get_coord() \# atomic coordinates
+a.get_coord()  # atomic coordinates
 
-a.get_vector() \# atomic coordinates as Vector object
+a.get_vector()  # atomic coordinates as Vector object
 
-a.get_bfactor() \# isotropic B factor
+a.get_bfactor()  # isotropic B factor
 
-a.get_occupancy() \# occupancy
+a.get_occupancy()  # occupancy
 
-a.get_altloc() \# alternative location specifier
+a.get_altloc()  # alternative location specifier
 
-a.get_sigatm() \# std. dev. of atomic parameters
+a.get_sigatm()  # std. dev. of atomic parameters
 
-a.get_siguij() \# std. dev. of anisotropic B factor
+a.get_siguij()  # std. dev. of anisotropic B factor
 
-a.get_anisou() \# anisotropic B factor
+a.get_anisou()  # anisotropic B factor
 
-a.get_fullname() \# atom name (with spaces, e.g. '.CA.')
+a.get_fullname()  # atom name (with spaces, e.g. '.CA.')
 ```
 
 #### How do I extract information from a `Residue` object?
@@ -717,10 +717,10 @@ a.get_fullname() \# atom name (with spaces, e.g. '.CA.')
 Using the following methods:
 
 ``` Python
-r.get_resname() \# return the residue name (eg. 'GLY')
-r.is_disordered() \# 1 if the residue has disordered atoms
-r.get_segid() \# return the SEGID
-r.has_id(name) \# test if a residue has a certain atom
+r.get_resname()  # return the residue name (eg. 'GLY')
+r.is_disordered()  # 1 if the residue has disordered atoms
+r.get_segid()  # return the SEGID
+r.has_id(name)  # test if a residue has a certain atom
 ```
 
 #### How do I measure distances?
@@ -731,13 +731,13 @@ return the distance between two atoms.
 Example:
 
 ``` Python
-\# Get some atoms
+ # Get some atoms
 
 ca1=residue1{['CA'{]
 
 ca2=residue2{['CA'{]
 
-\# Simply subtract the atoms to get their distance
+ # Simply subtract the atoms to get their distance
 
 distance=ca1-ca2
 ```
@@ -783,11 +783,11 @@ C$\\alpha$-C$\\alpha$ distance criterion.
 Example:
 
 ``` Python
-\# Using C-N 
+ # Using C-N 
 ppb=PPBuilder()
 for pp in ppb.build_peptides(structure): 
     print pp.get_sequence()
-\# Using CA-CA
+ # Using CA-CA
 ppb=CaPPBuilder()
 for pp in ppb.build_peptides(structure): 
     print pp.get_sequence()
@@ -887,12 +887,12 @@ Example:
 ``` Python
 model=structure[0]
 hse=HSExposure()
-\# Calculate HSEalpha
+ # Calculate HSEalpha
 exp_ca=hse.calc_hs_exposure(model, option='CA3')
-\# Calculate HSEbeta
+ # Calculate HSEbeta
 exp_cb=hse.calc_hs_exposure(model, option='CB')
-\# Calculate classical coordination number exp_fs=hse.calc_fs_exposure(model)
-\# Print HSEalpha for a residue
+ # Calculate classical coordination number exp_fs=hse.calc_fs_exposure(model)
+ # Print HSEalpha for a residue
 print exp_ca{[some_residue{]
 ```
 
@@ -928,19 +928,19 @@ method (which can be used to construct a rotation around a certain axis)
 of the `Vector` module:
 
 ``` Python
-\# get atom coordinates as vectors
+ # get atom coordinates as vectors
 n=residue{['N'{].get_vector() 
 c=residue{['C'{].get_vector() 
 ca=residue{['CA'{].get_vector()
-\# center at origin
+ # center at origin
 n=n-ca 
 c=c-ca 
-\# find rotation matrix that rotates n 
-\# -120 degrees along the ca-c vector
+ # find rotation matrix that rotates n 
+ # -120 degrees along the ca-c vector
 rot=rotaxis(-pi{*120.0/180.0, c)
-\# apply rotation to ca-n vector
+ # apply rotation to ca-n vector
 cb_at_origin=n.left_multiply(rot)
-\# put on top of ca atom
+ # put on top of ca atom
 cb=cb_at_origin+ca
 ```
 
@@ -974,14 +974,14 @@ Example:
 
 ``` Python
 sup=Superimposer()
-\# Specify the atom lists
-\# 'fixed' and 'moving' are lists of Atom objects
-\# The moving atoms will be put on the fixed atoms
+ # Specify the atom lists
+ # 'fixed' and 'moving' are lists of Atom objects
+ # The moving atoms will be put on the fixed atoms
 sup.set_atoms(fixed, moving)
-\# Print rotation/translation/rmsd
+ # Print rotation/translation/rmsd
 print sup.rotran
 print sup.rms 
-\# Apply rotation/translation to the moving atoms
+ # Apply rotation/translation to the moving atoms
 sup.apply(moving)
 ```
 
