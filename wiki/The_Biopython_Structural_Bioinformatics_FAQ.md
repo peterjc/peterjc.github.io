@@ -378,22 +378,22 @@ ever asked for it). People who want to add this can contact me.
 The `Structure` object follows the so-called **SMCRA**
 (Structure/Model/Chain/Residue/Atom) architecture :
 
-\\begin{itemize \\item A structure consists of models \\item A model
-consists of chains \\item A chain consists of residues \\item A residue
-consists of atoms \\end{itemize This is the way many structural
-biologists/bioinformaticians think about structure, and provides a
-simple but efficient way to deal with structure. Additional stuff is
-essentially added when needed. A UML diagram of the `Structure` object
-(forget about the `Disordered` classes for now) is shown in Fig.
-\\ref{<cap:SMCRA>.
+-   A structure consists of models
+-   A model consists of chains
+-   A chain consists of residues
+-   A residue consists of atoms
 
-![alt text](Smcra.png "alt text")
+This is the way many structural biologists/bioinformaticians think about
+structure, and provides a simple but efficient way to deal with
+structure. Additional stuff is essentially added when needed. A UML
+diagram of the `Structure` object (forgetting about the `Disordered`
+classes for now) is shown in the figure below.
 
-\\caption{\\label{<cap:SMCRAUML> diagram of SMCRA architecture of the
-`Structure` object. Full lines with diamonds denote aggregation, full
-lines with arrows denote referencing, full lines with triangles denote
-inheritance and dashed lines with triangles denote interface
-realization. \\end{figure
+![Diagram of SMCRA architecture of the `Structure` object. Full lines
+with diamonds denote aggregation, full lines with arrows denote
+referencing, full lines with triangles denote inheritance and dashed
+lines with triangles denote interface
+realization.](Smcra.png "Diagram of SMCRA architecture of the Structure object. Full lines with diamonds denote aggregation, full lines with arrows denote referencing, full lines with triangles denote inheritance and dashed lines with triangles denote interface realization.")
 
 #### How do I navigate through a Structure object?
 
