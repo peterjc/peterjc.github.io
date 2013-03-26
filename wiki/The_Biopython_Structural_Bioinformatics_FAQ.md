@@ -809,7 +809,7 @@ Example:
 ``` Python
 model = structure[0]
 rd = ResidueDepth(model, pdb_file)
-residue_depth, ca_depth=rd[some_residue]
+residue_depth, ca_depth = rd[some_residue]
 ```
 
 You can also get access to the molecular surface itself (via the
