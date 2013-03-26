@@ -395,6 +395,8 @@ referencing, full lines with triangles denote inheritance and dashed
 lines with triangles denote interface
 realization.](Smcra.png "Diagram of SMCRA architecture of the Structure object. Full lines with diamonds denote aggregation, full lines with arrows denote referencing, full lines with triangles denote inheritance and dashed lines with triangles denote interface realization.")
 
+  
+
 #### How do I navigate through a Structure object?
 
 The following code iterates through all atoms of a structure:
