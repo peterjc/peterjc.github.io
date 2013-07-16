@@ -2,8 +2,8 @@
 title: Download
 ---
 
-Current Release - 1.61 - 5 February 2013
-========================================
+Current Release - 1.62 *beta* - 15 July 2013
+============================================
 
 See also [What's
 new](https://github.com/biopython/biopython/raw/master/NEWS).
