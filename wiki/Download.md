@@ -75,8 +75,8 @@ list](Mailing_lists "wikilink") and ask for help there.
     source)](http://www.python.org/doc/current/inst/inst.html) You need
     a C compiler supported by distutils, gcc will work fine on UNIX-like
     platforms. This is not needed on Windows if using the install
-    programs provided above. On Mac OS, we recommend you install Apple's
-    XCode *including* the 10.4 SDK if offered.
+    programs provided above. On Mac OS, you should install Apple's XCode
+    *including* the command line tools.
 -   [NumPy (Numerical Python)](http://numpy.scipy.org/). Note that until
     Biopython 1.49, Biopython used the older Numeric library. We have
     tested NumPy 1.1 to 1.5 with Biopython.
