@@ -8,13 +8,15 @@ title: List of applications executed via Biopython
 
 NumPy
 
-Matplotib
-
 Reportlab (Bio.Graphics only)
+
+Matplotlib (Bio.Phylo.draw and draw\_graphviz only)
 
 RDFLib (Bio.Phylo.CDAOIO only)
 
 NetworkX (Bio.Phylo.to\_networkx and draw\_graphviz only)
+
+PyGraphviz or Pydot (Bio.Phylo.draw\_graphviz only)
 
 ### Applications
 
