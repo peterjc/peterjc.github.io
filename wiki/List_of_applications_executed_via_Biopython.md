@@ -6,7 +6,7 @@ title: List of applications executed via Biopython
 
 ### Python libraries
 
-NumPy
+NumPy (Bio.PDB, Bio.Cluster, ...)
 
 Reportlab (Bio.Graphics only)
 
