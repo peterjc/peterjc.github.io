@@ -116,8 +116,8 @@ Past mentors include:
 -   [João Rodrigues](http://nmr.chem.uu.nl/~joao)
 -   [Eric Talevich](http://etal.myweb.uga.edu/)
 
-Past Proposals
---------------
+Past Accepted Projects
+----------------------
 
 ### 2013
 
