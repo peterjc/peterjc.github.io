@@ -28,7 +28,8 @@ author:
 
 
 # Custom vars
-version:          1.65
+#hyde theme seems to use version as a GitHub tag...?
+#version:          1.65
 github:
   repo:           https://github.com/biopython/biopython
 
