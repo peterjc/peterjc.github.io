@@ -11,9 +11,26 @@ redcarpet:
 gems:
   - jekyll-redirect-from
 
+
+# Permalinks
+#permalink:        pretty
+#relative_permalinks: true
+
 # Setup
-title: Biopython
-baseurl: /
+title:            Biopython
+tagline:          The Biopython Project
+url:              http://biopython.org
+#paginate:         1
+baseurl:          /
+author:
+  name:           Biopython
+  url:            https://twitter.com/biopython
+
+
+# Custom vars
+version:          1.65
+github:
+  repo:           https://github.com/biopython/biopython
 
 # Page settings
 defaults:
@@ -21,4 +38,4 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "default"
+      layout: "page"
