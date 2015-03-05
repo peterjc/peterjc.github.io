@@ -12,6 +12,7 @@ gems:
   - jekyll-redirect-from
 
 # Setup
+title: Biopython
 baseurl: /
 
 # Page settings
