@@ -1,5 +1,6 @@
 ---
 title: Participants
+layout:	page
 ---
 
 Note: People are listed here alphabetically by surname. This is only a

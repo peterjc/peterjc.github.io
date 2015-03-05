@@ -1,5 +1,6 @@
 ---
 title: Mailing lists
+layout: page
 ---
 
 ### Discussion and questions

@@ -1,5 +1,6 @@
 ---
 title: Download
+layout: page
 ---
 
 Current Release - 1.65 - 17 December 2014

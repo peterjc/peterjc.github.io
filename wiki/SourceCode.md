@@ -1,5 +1,6 @@
 ---
 title: SourceCode
+layout:	page
 ---
 
 ### Introduction
