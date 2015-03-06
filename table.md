@@ -1,10 +1,16 @@
-This is a small table:
+Very simple table, one cell per line of MediaWiki markup:
 
-|-------------|-----------------------|
-| Name        | Git                   |
-| Author      | Linus Torvalds        |
-| URL         | <http://git.scm.com>  |
-| Description | Fast version control. |
+|--------|-----------|
+| Orange | Apple     |
+| Bread  | Pie       |
+| Butter | Ice cream |
+
+Small table, one row per line of MediaWiki markup:
+
+|--------|-----------|----------|
+| Orange | Apple     | more     |
+| Bread  | Pie       | more     |
+| Butter | Ice cream | and more |
 
 The end.
 

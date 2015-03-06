@@ -1,13 +1,24 @@
-This is a small table:
+Very simple table, one cell per line of MediaWiki markup:
 
-{| border="1" width="100%"
-| Name          || Git
+{|
+|Orange
+|Apple
 |-
-| Author        || Linus Torvalds
+|Bread
+|Pie
 |-
-| URL           || http://git.scm.com
+|Butter
+|Ice cream 
+|}
+
+Small table, one row per line of MediaWiki markup:
+
+{|
+|  Orange    ||   Apple   ||   more
 |-
-| Description   || Fast version control.
+|   Bread    ||   Pie     ||   more
+|-
+|   Butter   || Ice cream ||  and more
 |}
 
 The end.
