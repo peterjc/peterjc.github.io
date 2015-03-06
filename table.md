@@ -13,4 +13,3 @@ Small table, one row per line of MediaWiki markup:
 | Butter | Ice cream | and more |
 
 The end.
-
