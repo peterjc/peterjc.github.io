@@ -1,0 +1,17 @@
+Very simple table, one cell per line of MediaWiki markup:
+
+  -------- -----------
+  Orange   Apple
+  Bread    Pie
+  Butter   Ice cream
+  -------- -----------
+
+Small table, one row per line of MediaWiki markup:
+
+  -------- ----------- ----------
+  Orange   Apple       more
+  Bread    Pie         more
+  Butter   Ice cream   and more
+  -------- ----------- ----------
+
+The end.
